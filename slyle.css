@@ -23,131 +23,125 @@ header {
 .logo {
   display: inline-block;
   width: 45%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: #555252;
 }
 
-.logo>span{
-    font-weight: 900;
-    color: #1abc9c;
+.logo > span {
+  font-weight: 900;
+  color: #1abc9c;
 }
 
 .site-nav {
   display: inline-block;
 }
 
-.nav-list{
-    display: inline-block;
+.nav-list {
+  display: inline-block;
 }
 
-.nav-list>li{
-    display:inline-block;
-    margin-right: 33px;
-    font-style: 14px;
-    font-family: 'Open Sans', sans-serif;
-    color: #0f0101;
-    cursor: pointer;
+.nav-list > li {
+  display: inline-block;
+  margin-right: 33px;
+  font-style: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #0f0101;
+  cursor: pointer;
 }
 
-.nav-list-item:nth-child(6){
-    margin: 0;
+.nav-list-item:nth-child(6) {
+  margin: 0;
 }
 
-.nav-list-item::hover{
-color:#1abc9c;
-transition: .7s;
+.nav-list-item::hover {
+  color: #1abc9c;
+  transition: 0.7s;
 }
 
 /*--main--*/
 
 .title {
-    font-size: 38px;
-    color: #515151;
-    width: 450px;
-    margin: 50px auto 0 auto;
-    font-family: 'Roboto', sans-serif;
-    
+  font-size: 38px;
+  color: #515151;
+  width: 450px;
+  margin: 50px auto 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 
 .title::after {
-    content: "";
-    background-color: #1abc9c;
-    display: block;
-    margin: 32px auto 0 auto;
-    transition: .5s;
-    width: 0;
-    height: 0;
+  content: "";
+  background-color: #1abc9c;
+  display: block;
+  margin: 32px auto 0 auto;
+  transition: 0.5s;
+  width: 0;
+  height: 0;
 }
-
 
 .title:hover::after {
-    
-    width: 164px;
-    height: 7px;
-
+  width: 164px;
+  height: 7px;
 }
 
-.main-list{
-    widows: 1110px;
-    margin: 0 auto
+.main-list {
+  widows: 1110px;
+  margin: 0 auto;
 }
 
-.main-list-item{
-    display: inline-block;
+.main-list-item {
+  display: inline-block;
 }
 
 /*------img----*/
 .card {
-    width: 255px;
-    height: 320px;
-    /* margin: 0 auto; */
-    transition: .5s;
+  width: 255px;
+  height: 320px;
+  /* margin: 0 auto; */
+  transition: 0.5s;
 }
 
 .picture {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .info {
-    width: 100%;
-    height: 40px;
-    font-size: 0;
-    background-color: rgb(102, 102, 102);
-    font-family: 'Roboto', sans-serif;
-
+  width: 100%;
+  height: 40px;
+  font-size: 0;
+  background-color: rgb(102, 102, 102);
+  font-family: "Roboto", sans-serif;
 }
 
 .name {
-    display: inline-block;
-    width: 200px;
-    height: 100%;
-    padding: 10px;
-    color: white;
-    background-color: #323232;
-    font-size: 18px;
-    transition: .5s;
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #323232;
+  font-size: 18px;
+  transition: 0.5s;
 }
 
 .price {
-    display: inline-block;
-    width: 55px;
-    height: 100%;
-    padding: 10px;
-    color: white;
-    font-size: 18px;
-    transition: .5s;
+  display: inline-block;
+  width: 55px;
+  height: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  transition: 0.5s;
 }
 
 .card:hover .name {
-    background-color: #1abc9c;
+  background-color: #1abc9c;
 }
 .card:hover .price {
-    background-color: #7fd9c7;
+  background-color: #7fd9c7;
 }
 .card:hover {
-    transform: scale(1.2);
-
+  transform: scale(1.2);
 }
