@@ -145,3 +145,26 @@ header {
 .card:hover {
   transform: scale(1.2);
 }
+
+.title-news {
+  font-size: 38px;
+  color: #515151;
+  width: 450px;
+  margin: 50px 310px 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-news::after {
+  content: "";
+  background-color: #1abc9c;
+  display: block;
+  margin: 32px 219px 0 auto;
+  transition: 0.5s;
+  width: 0;
+  height: 0;
+}
+
+.title-news:hover::after {
+  width: 164px;
+  height: 7px;
+}
